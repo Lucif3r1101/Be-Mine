@@ -1,16 +1,20 @@
-# Proposal Web App 💖
+# My Forever Yes 💍
 
-## Description
-A fun and interactive proposal page with multiple reconsideration steps before the final acceptance.
+A fun and interactive **proposal website** for Valentine's Day, engagements, and marriage proposals.
 
-## Structure
-- `index.html` → Main page
-- `pages/reconsider-1.html` → First reconsideration page
-- `pages/reconsider-2.html` → Second reconsideration page
-- `pages/reconsider-3.html` → Final reconsideration
-- `pages/accepted.html` → Success page
+## ✨ Features
+- 💖 Interactive yes/no buttons
+- 🎉 Fun animations and surprises
+- 📱 Mobile-friendly design
+- 🚀 SEO-optimized for Google ranking
 
-## Features
-- GIF-based fun animations
-- Moving "No" button to ensure a "Yes" 😆
-- Responsive design
+## 🚀 Live Site
+[Visit the Proposal Site]https://sayyestolove.netlify.app)
+
+## 📄 Deployment on Netlify
+1. Upload the project to **GitHub**.
+2. Connect GitHub to **Netlify**.
+3. Click **Deploy** and get a free domain!
+
+## 📜 License
+This project is open-source. Feel free to modify and use it! 💕

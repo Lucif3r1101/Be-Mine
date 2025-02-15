@@ -5,6 +5,14 @@ function moveRandomEl(elm) {
 }
 
 const moveRandom = document.querySelector("#move-random");
+
+//For dekstop
 moveRandom.addEventListener("mouseenter", function (e) {
+    moveRandomEl(e.target);
+});
+
+//For mobile
+moveRandom.addEventListener("touchstart", function (e) {
+    e.preventDefault();
     moveRandomEl(e.target);
 });

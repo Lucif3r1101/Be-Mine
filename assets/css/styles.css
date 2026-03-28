@@ -17,18 +17,18 @@ body {
   }
 
   .page-shell {
-    width: min(1400px, 100%);
+    width: min(1320px, 100%);
     margin: 0 auto;
     display: grid;
-    grid-template-columns: minmax(150px, 210px) minmax(0, 760px) minmax(150px, 210px);
-    gap: 18px;
+    grid-template-columns: minmax(112px, 148px) minmax(0, 760px) minmax(112px, 148px);
+    gap: 16px;
     align-items: center;
     justify-content: center;
   }
 
   .page-main {
     display: grid;
-    gap: 18px;
+    gap: 14px;
     align-items: center;
     justify-items: center;
   }
@@ -52,11 +52,23 @@ body {
     box-shadow: 0 14px 32px rgba(118, 75, 85, 0.12);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    padding: 12px;
-    min-height: 120px;
+    padding: 10px;
     display: grid;
-    gap: 10px;
+    gap: 8px;
     align-content: start;
+  }
+
+  .ad-left .ad-panel,
+  .ad-right .ad-panel {
+    min-height: 180px;
+  }
+
+  .ad-top.ad-panel,
+  .ad-bottom.ad-panel {
+    min-height: 84px;
+    max-width: 560px;
+    width: 100%;
+    justify-self: center;
   }
 
   .ad-panel::before {
@@ -68,7 +80,7 @@ body {
   }
 
   .ad-label {
-    font-size: 0.7rem;
+    font-size: 0.66rem;
     text-transform: uppercase;
     letter-spacing: 0.16em;
     color: #9a727a;
@@ -88,7 +100,7 @@ body {
     align-items: center;
     gap: 25px;
     max-width: 700px;
-    margin: 20px;
+    margin: 16px;
     background: rgba(255, 255, 255, 0.94);
     padding: 40px 40px 30px;
     border-radius: 18px;
@@ -159,6 +171,12 @@ body {
     .ad-left,
     .ad-right {
       display: none;
+    }
+
+    .ad-top.ad-panel,
+    .ad-bottom.ad-panel {
+      max-width: 100%;
+      min-height: 74px;
     }
 
     .container {
